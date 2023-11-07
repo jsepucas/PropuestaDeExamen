@@ -9,12 +9,13 @@ int main() {
             int c = std::sqrt(a * a + b * b);
 
             if(c <= limite_maximo && a + b + c <= 2 * limite_maximo && a * a + b * b == c * c) {
-                std::cout<< "El triple pitagorico es: " << a << ", " << b << ", " << c << std::end
+                std::cout<< "El triple pitagorico es: " << a << ", " << b << ", " << c << std::endl;
 
             }
 
         }
 
     }
+    return 0;
 
 }
