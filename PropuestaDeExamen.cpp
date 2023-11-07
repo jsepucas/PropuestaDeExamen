@@ -2,6 +2,7 @@
 #include <cmath>
 
 int main() {
+    // Establezco un límite para los valores de a, b y c.
     int limite_maximo = 100;
 
     for(int a = 1; a <= limite_maximo; ++a) {
