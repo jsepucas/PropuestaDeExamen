@@ -17,7 +17,7 @@ int main() {
     //Verifico si es un triple pitagorico, cumpliendo así las condiciones indicadas.
             if(c <= limite_maximo && a + b + c <= 2 * limite_maximo && a * a + b * b == c * c) {
 
-    //Por último, hago que salga en la consola el resultado del triple pitagorico.
+    //Por último, hago que salga en la consola el resultado del triple pitagorico
                 std::cout<< "El triple pitagorico es: " << a << ", " << b << ", " << c << std::endl;
 
             }
