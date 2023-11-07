@@ -11,7 +11,7 @@ int main() {
         for(int b = a ; b <= limite_maximo; ++b) {
             //Calculo el lado "c"
             int c = std::sqrt(a * a + b * b);
-
+    //Verifico si es un triple pitagorico, cumpliendo así las condiciones indicadas
             if(c <= limite_maximo && a + b + c <= 2 * limite_maximo && a * a + b * b == c * c) {
                 std::cout<< "El triple pitagorico es: " << a << ", " << b << ", " << c << std::endl;
 
