@@ -6,7 +6,8 @@ int main() {
 
     for(int a = 1; a <= limite_maximo; ++a) {
         for(int b = a ; b <= limite_maximo; ++b) {
-            int hipo
+            int c = std::sqrt(a * a + b * b);
+
         }
 
     }
