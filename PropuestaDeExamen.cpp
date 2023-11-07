@@ -5,8 +5,9 @@ int main() {
     // Establezco un límite para los valores de a, b y c.
     int limite_maximo = 100;
 
-    // Repito varias veces el bucle, para "a"
+    // Repito dos veces el bucle, para "a"
     for(int a = 1; a <= limite_maximo; ++a) {
+    // Repito de nuevo dos veces el bucle para "b"
         for(int b = a ; b <= limite_maximo; ++b) {
             //Calculo el lado "c"
             int c = std::sqrt(a * a + b * b);
